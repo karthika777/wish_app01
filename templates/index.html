@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hi App</title>
+
+    <style>
+        body {
+            background: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        h1 {
+            font-size: 120px;
+            color: gold;
+            text-shadow:
+                0 0 10px gold,
+                0 0 20px gold,
+                0 0 40px gold,
+                0 0 80px gold;
+            animation: blink 1s infinite;
+        }
+
+        @keyframes blink {
+            50% {
+                opacity: 0.5;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>✨ HI ✨</h1>
