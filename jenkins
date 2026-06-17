@@ -3,8 +3,8 @@ pipeline {
 
     environment {
         AWS_REGION = 'us-east-1'
-        ECR_REPO = 'flask-app'
-        ACCOUNT_ID = '123456789012'
+        ECR_REPO = 'ete_project'
+        ACCOUNT_ID = '633510959493'
         IMAGE_TAG = "${BUILD_NUMBER}"
     }
 
