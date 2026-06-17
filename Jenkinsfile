@@ -12,7 +12,8 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/karthika777/wish_app01.git'
+                git branch: 'main',
+                    url: 'https://github.com/karthika777/wish_app01.git'
             }
         }
 
