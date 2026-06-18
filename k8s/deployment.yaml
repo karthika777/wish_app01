@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: wish-app
-        image: <ECR_IMAGE_URL>
+        image: 633510959493.dkr.ecr.us-east-1.amazonaws.com/ete_project
         ports:
         - containerPort: 5000
